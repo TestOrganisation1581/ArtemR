@@ -1,7 +1,4 @@
 def func(x):
-    if x % 2 == 1:
-        return 'True'
-    else:
-        return 'False'
+    return x % 2
 number = int(input())
 print(func(number))
